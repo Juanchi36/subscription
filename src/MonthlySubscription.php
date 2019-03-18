@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/autoload.php';
+namespace Juanma\Subscription;
 
 use Juanma\Subscription\SubscriptionInterface;
 use Juanma\Subscription\SubscriberInterface;

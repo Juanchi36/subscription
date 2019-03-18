@@ -1,11 +1,11 @@
 <?php
 
-require '../vendor/autoload.php';
+namespace Juanma\Subscription;
 
 use Juanma\Subscription\SubscriberInterface;
 use Juanma\Subscription\PlanInterface;
 
-class PlainSubscriber implements SubscriberInterface
+class RegularSubscriber implements SubscriberInterface
 {
     private $email;
     private $plan = null;
